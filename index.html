@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blue PMS — Hotel Software</title>
+    <meta name="description" content="Blue PMS: modern hotel property management software with channel manager, revenue analytics, and housekeeping modules." />
+    <meta name="theme-color" content="#0ea5e9" />
+    <link rel="icon" type="image/svg+xml" href="public/favicon.svg" sizes="any" />
+    <link rel="preload" href="style-main.css" as="style" />
+    <link rel="stylesheet" href="style-main.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#" aria-label="Blue PMS Home">
+          <span class="brand-mark" aria-hidden="true">🜁</span>
+          <span class="brand-name">Blue <strong>PMS</strong></span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <div class="header-cta">
+          <button class="btn ghost" id="themeToggle" aria-label="Toggle theme">🌗</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Decorative moving orbs/parallax -->
+    <div class="orbs" aria-hidden="true">
+      <span style="--i:0"></span><span style="--i:1"></span><span style="--i:2"></span>
+      <span style="--i:3"></span><span style="--i:4"></span><span style="--i:5"></span>
+    </div>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-inner">
+          <h1 class="display">Run your hotel <span class="gradient-text">beautifully</span> with Blue PMS</h1>
+          <p class="lead">Cloud‑native property management, real‑time channel sync, and AI‑assisted revenue analytics. Built for independent hotels and groups.</p>
+          <div class="cta-row">
+            <a class="btn xl" href="#pricing">View pricing</a>
+            <a class="btn xl ghost" href="#features">See features</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>99.95%</strong> uptime</li>
+            <li><strong>50+</strong> OTA integrations</li>
+            <li><strong>24/7</strong> support</li>
+          </ul>
+        </div>
+        <div class="mesh" aria-hidden="true"></div>
+      </section>
+
+      <!-- FASTER MARQUEE -->
+      <section class="logos" aria-label="Trusted by">
+        <div class="container marquee" data-marquee data-speed="9s">
+          <span>Booking.com</span><span>Airbnb</span><span>Expedia</span>
+          <span>Agoda</span><span>Google Hotel</span><span>Tripadvisor</span>
+          <span>HRS</span><span>Hotelbeds</span>
+        </div>
+      </section>
+
+      <section id="features" class="features container">
+        <header class="section-header">
+          <h2>Everything you need to operate & grow</h2>
+          <p>From front desk to housekeeping, Blue PMS keeps your team in sync and your rooms filled.</p>
+        </header>
+
+        <div class="grid features-grid">
+          <article class="card reveal">
+            <h3>Unified Front Desk</h3>
+            <p>Drag‑and‑drop calendar, multi‑rate plans, no‑show handling, and PCI‑compliant payments.</p>
+            <ul>
+              <li>Group & split bookings</li>
+              <li>Smart upsells</li>
+              <li>Audit & night mode</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Channel Manager</h3>
+            <p>Two‑way sync with major OTAs, instant availability push, and rate parity guardrails.</p>
+            <ul>
+              <li>Bulk rate updates</li>
+              <li>Stop‑sell windows</li>
+              <li>Auto‑mapping</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Revenue Analytics</h3>
+            <p>Forecasting, competitor benchmarking, and AI pricing suggestions delivered daily.</p>
+            <ul>
+              <li>Pickup & pace reports</li>
+              <li>RevPAR / GOPPAR</li>
+              <li>Segment analysis</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Housekeeping App</h3>
+            <p>Live room statuses, cleaning runs, photo notes, and offline‑first mobile app.</p>
+            <ul>
+              <li>Priority turns</li>
+              <li>Lost & found</li>
+              <li>Maintenance tickets</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- PRICING (no cart; simple CTAs) -->
+      <section id="pricing" class="plans">
+        <div class="container">
+          <header class="section-header">
+            <h2>Simple pricing</h2>
+            <p>Start with Core and add modules as you grow.</p>
+          </header>
+
+          <div class="grid plans-grid">
+            <article class="card plan reveal">
+              <div class="badge">Most popular</div>
+              <h3>Blue PMS Core</h3>
+              <div class="price">$49 <span class="meta">/month / property</span></div>
+              <ul class="features">
+                <li>Drag‑and‑drop calendar</li>
+                <li>Multi‑rate plans</li>
+                <li>Payments & folios</li>
+              </ul>
+              <div class="cta">
+                <a class="btn small" href="#contact">Book a demo</a>
+                <a class="btn small ghost" href="#" rel="noopener">Buy instantly</a>
+              </div>
+            </article>
+
+            <article class="card plan reveal">
+              <div class="badge">OTA sync</div>
+              <h3>Channel Manager</h3>
+              <div class="price">$39 <span class="meta">/month / property</span></div>
+              <ul class="features">
+                <li>Parity guardrails</li>
+                <li>Bulk rate updates</li>
+                <li>Stop‑sell windows</li>
+              </ul>
+              <div class="cta">
+                <a class="btn small" href="#contact">Book a demo</a>
+                <a class="btn small ghost" href="#" rel="noopener">Buy instantly</a>
+              </div>
+            </article>
+
+            <article class="card plan reveal">
+              <div class="badge">New</div>
+              <h3>Revenue Analytics</h3>
+              <div class="price">$29 <span class="meta">/month / property</span></div>
+              <ul class="features">
+                <li>Pickup & pace</li>
+                <li>Comp set</li>
+                <li>RevPAR dashboards</li>
+              </ul>
+              <div class="cta">
+                <a class="btn small" href="#contact">Book a demo</a>
+                <a class="btn small ghost" href="#" rel="noopener">Buy instantly</a>
+              </div>
+            </article>
+
+            <article class="card plan reveal">
+              <div class="badge">Mobile</div>
+              <h3>Housekeeping App</h3>
+              <div class="price">$19 <span class="meta">/month / property</span></div>
+              <ul class="features">
+                <li>Priority turns</li>
+                <li>Lost & found</li>
+                <li>Maintenance tickets</li>
+              </ul>
+              <div class="cta">
+                <a class="btn small" href="#contact">Book a demo</a>
+                <a class="btn small ghost" href="#" rel="noopener">Buy instantly</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- REVIEWS: upgraded to snap slider -->
+      <section id="testimonials" class="testimonials container">
+        <header class="section-header">
+          <h2>Loved by modern hoteliers</h2>
+        </header>
+        <div class="slider">
+          <button class="slider-btn prev" aria-label="Previous review">◀</button>
+          <div class="slider-track" data-slider>
+            <figure class="card quote">
+              <div class="stars" aria-label="5 out of 5">★★★★★</div>
+              <blockquote>“Blue PMS cut our overbooking issues to zero and boosted direct bookings 18%.”</blockquote>
+              <figcaption>— Seaside Inn, CA</figcaption>
+            </figure>
+            <figure class="card quote">
+              <div class="stars" aria-label="5 out of 5">★★★★★</div>
+              <blockquote>“Housekeeping turnover time dropped 22 minutes per room. Guests notice.”</blockquote>
+              <figcaption>— Alpine Lodge, CO</figcaption>
+            </figure>
+            <figure class="card quote">
+              <div class="stars" aria-label="5 out of 5">★★★★★</div>
+              <blockquote>“Revenue suggestions paid for the software in week one.”</blockquote>
+              <figcaption>— City Boutique, NY</figcaption>
+            </figure>
+            <figure class="card quote">
+              <div class="stars" aria-label="5 out of 5">★★★★★</div>
+              <blockquote>“Support is instant and actually helpful—rollout took a single afternoon.”</blockquote>
+              <figcaption>— Harbor Suites, FL</figcaption>
+            </figure>
+          </div>
+          <button class="slider-btn next" aria-label="Next review">▶</button>
+        </div>
+      </section>
+
+      <!-- FAQ: improved -->
+      <section id="faq" class="faq container">
+        <header class="section-header">
+          <h2>FAQs</h2>
+        </header>
+        <div class="accordion" role="list">
+          <details class="card" role="listitem">
+            <summary><span>Can I try Blue PMS before buying?</span></summary>
+            <p>Yes, we offer a 14‑day trial with sample data and guided onboarding.</p>
+          </details>
+          <details class="card" role="listitem">
+            <summary><span>Do you support multiple properties?</span></summary>
+            <p>Yes, with centralized reporting, cross‑property inventory, and role‑based access.</p>
+          </details>
+          <details class="card" role="listitem">
+            <summary><span>How does billing work?</span></summary>
+            <p>Monthly subscription, cancel anytime. Annual plans include volume discounts.</p>
+          </details>
+          <details class="card" role="listitem">
+            <summary><span>Do you integrate with door locks & POS?</span></summary>
+            <p>We support popular door lock systems, payment processors, and POS vendors via open APIs.</p>
+          </details>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact container">
+        <header class="section-header">
+          <h2>Book a personalized demo</h2>
+          <p>Tell us about your property—we’ll reach out within one business day.</p>
+        </header>
+        <form class="grid contact-grid" id="demoForm" novalidate>
+          <label class="field">
+            <span>Full name</span>
+            <input required name="name" placeholder="Alex Rivera" />
+          </label>
+          <label class="field">
+            <span>Work email</span>
+            <input required type="email" name="email" placeholder="alex@yourhotel.com" />
+          </label>
+          <label class="field">
+            <span>Hotel / Company</span>
+            <input name="company" placeholder="Blue Harbor Hotel" />
+          </label>
+          <label class="field">
+            <span>Property size</span>
+            <select name="size">
+              <option value="">Select rooms</option>
+              <option>1–49 rooms</option>
+              <option>50–149 rooms</option>
+              <option>150–299 rooms</option>
+              <option>300+ rooms</option>
+            </select>
+          </label>
+          <label class="field full">
+            <span>What are you looking to improve?</span>
+            <textarea rows="4" name="message" placeholder="Front desk speed, OTA integrations, housekeeping, reporting…"></textarea>
+          </label>
+          <button class="btn xl" type="submit">Request demo</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Blue PMS. All rights reserved.</p>
+        <nav aria-label="Legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#contact">Support</a>
+        </nav>
+      </div>
+    </footer>
+
+    <!-- LIVE CHAT (demo) -->
+    <button id="chatFab" class="chat-fab" aria-haspopup="dialog" aria-controls="chatDialog" aria-expanded="false">💬</button>
+    <dialog id="chatDialog" class="chat">
+      <form method="dialog" class="chat__panel" role="document" aria-labelledby="chatTitle">
+        <header class="chat__header">
+          <h2 id="chatTitle">Chat with Blue PMS</h2>
+          <button class="icon-btn" value="cancel" aria-label="Close chat" data-close-chat>×</button>
+        </header>
+        <div class="chat__messages" data-chat-messages aria-live="polite"></div>
+        <div class="chat__input">
+          <input id="chatInput" placeholder="Type a message…" autocomplete="off" />
+          <button type="button" class="btn small" id="chatSend">Send</button>
+        </div>
+        <p class="chat__note">This is a demo widget. For real support, include Intercom/Crisp/Tawk later.</p>
+      </form>
+    </dialog>
+
+    <script defer src="script-app.js"></script>
+  </body>
+</html>
